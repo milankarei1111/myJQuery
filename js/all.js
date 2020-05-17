@@ -24,5 +24,12 @@ $(document).ready(function () {
 
       // 鏈式效果:執行slideUp後再執行slideDown
       $('.chainEffect').slideUp(2000).slideDown(3000);
+
+      // 功能:addClass() 動態載入css效果 搭配 all.css文件
+      // $('p').addClass('orange');
+      $('p').toggleClass('orange');
+
+      // 功能:attr(屬性, 值) 動態載入html屬性效果 搭配 Console
+      $('a').attr('href', 'https://www.google.com.tw/');
   });
 });

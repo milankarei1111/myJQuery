@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +9,35 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/all.js"></script>
 </head>
+
 <body>
     <!--功能: 練習 selector 取用方法-->
-    <h1>h1標籤</h1>
-    <h2 class="className">className</h1>
-    <h3 id="idName">idName</h1>
-    
-    <!--功能: 點擊 <h4> 效果 --> 
-    <h4>點擊優惠內容顯示</h4>
+    <h1>h1標籤隱藏</h1>
+    <h2 class="className">className隱藏</h2>
+    <h3 id="idName">idName隱藏</h3>
+
+    <!--功能: 點擊 <h4> 效果 -->
+    <h4>點擊優惠內容顯示 動畫效果</h4>
     <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga ipsum quo quibusdam earum iste, dicta aliquam maxime illo, voluptatem quis quod nemo, cum mollitia sapiente minus! Ipsa officia aliquid esse!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga ipsum quo quibusdam earum iste, dicta
+        aliquam maxime illo, voluptatem quis quod nemo, cum mollitia sapiente minus! Ipsa officia aliquid esse!
     </p>
     <div style="width: 200px; height:200px;background: orange;">
-    
+
     </div>
     <div class="chainEffect" style="width: 200px; height:200px;background: blue;">
-    
+
     </div>
-
-    <!--功能: 動態載入css效果 --> 
-
+    <!--功能: 取得內容-->
+    <p id="test">这是段落中的<b>粗体</b>文本。</p>
+    <button id="btn1">文字內容</button>
+    <button id="btn2">取得文字及HTML內容</button>
+    <p>姓名：<input type="text" id="showVal" value="米老鼠"></p>
+    <button id="btn3"></button>姓名欄中的值</button>
+    <p id="p1">段落1</p>
+    <button id="btn4">設定段落1文字</button>
+    <button id="btn5">設定段落2文字與html格式</button>
+    <button id="btn6">設定姓名的值</button>
 </body>
+
 </html>
